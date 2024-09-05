@@ -21,3 +21,7 @@ p {
 li {
     color: #5ba33e;
 }
+
+img.rounded-corners {
+    border-radius: 30px;
+}
