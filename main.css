@@ -1,3 +1,6 @@
+
+/* text style */
+
 body {
     background-color: #262823;
 }
@@ -22,19 +25,15 @@ li {
     color: #5ba33e;
 }
 
-
+/* img style */
 
 img.rcr {
     border-radius: 30px;
     float: right;
-    display: block;
-    
+    display: block;  
 }
 
-
-
-
-
+/* nav style */
 
 body {
     font-family: "Lato", sans-serif;
