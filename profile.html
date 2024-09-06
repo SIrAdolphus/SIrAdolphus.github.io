@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
+<style>
   body {
     font-family: "Lato", sans-serif;
   }
-  
+
   .sidenav {
     height: 100%;
     width: 0;
@@ -20,7 +19,7 @@
     transition: 0.5s;
     padding-top: 60px;
   }
-  
+
   .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
@@ -29,11 +28,11 @@
     display: block;
     transition: 0.3s;
   }
-  
+
   .sidenav a:hover {
     color: #d8d849;
   }
-  
+
   .sidenav .closebtn {
     position: absolute;
     top: 0;
@@ -41,15 +40,20 @@
     font-size: 36px;
     margin-left: 50px;
   }
-  
+
   @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+    .sidenav {
+      padding-top: 15px;
+    }
+
+    .sidenav a {
+      font-size: 18px;
+    }
   }
-  </style>
-  </head>
-  <body>
-  
+</style>
+
+<section>
+
   <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <a href="index.html">Home</a>
@@ -58,73 +62,74 @@
     <a href="blog.html">Blog</a>
   </div>
   <span style="font-size:30px;cursor:pointer;color:#5ba33e;" onclick="openNav()">&#9776; </span>
-  
-  <script>
-  function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "250px";
-}
 
-  function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-  document.getElementById("main").style.marginLeft = "0";
-}
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft = "0";
+    }
   </script>
-     
-  </body>
-  </html> 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="/main.css">
-  <title>my profile</title>
+
+</section>
+
+
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="/main.css">
+<title>my profile</title>
 </head>
 
 <body>
-  <id= main>
     <img src="hzlogo.jpg" alt="Logo" height="100px" align="right" class="rounded-corners">
-<section>
-  <h2>
-    Personal information
-  </h2>
-  <p>My name is Gijs Borghouts and I am 19 years old
-    <br> I was born and live in a city called Roosendaal.
-    <br> I travel about a hour to get to Middelburg and follow this wonderful course.
-    <br> Before this study i finished a MBO study. The study i did was called
-    <br> 'Onderwijsassistent' which is a study in education to become a teacher assistent.
-  </p>
-  <h3>summary!</h3>
-  <ul>
-    <li>Gijs</li>
-    <li>19 Years old</li>
-    <li>Roosendaal</li>
-    <li>Onderwijsassistent</li>
-  </ul>
-</section>
-<section>
-  <h2>
-    Extra-curricular activities...
-  </h2>
-  <p>
-    Outside of school i have loads of smaller hobbies i like to do. 
-    <br> Such as (but not limited to) hanging out with friends playing both board and video games 
-    <br> and also being active in general! 
-    <br> One of my favorite things to do is probably meeting new people around me 
-    <br> Such as all of you!
-  </p>
-  <h3>
-    My Favorite hobbies!
-  </h3>
-  <ol>
-    <li>Meeting new people!</li>
-    <li>Magic the gathering</li>
-    <li>Grand strategy games</li>
-    <li>Paddleboarding</li>
-    <li>Cooking</li>
-  </ol>
-</section>
-</id= main>
+    <section>
+      <h2>
+        Personal information
+      </h2>
+      <p>My name is Gijs Borghouts and I am 19 years old
+        <br> I was born and live in a city called Roosendaal.
+        <br> I travel about a hour to get to Middelburg and follow this wonderful course.
+        <br> Before this study i finished a MBO study. The study i did was called
+        <br> 'Onderwijsassistent' which is a study in education to become a teacher assistent.
+      </p>
+      <h3>summary!</h3>
+      <ul>
+        <li>Gijs</li>
+        <li>19 Years old</li>
+        <li>Roosendaal</li>
+        <li>Onderwijsassistent</li>
+      </ul>
+    </section>
+    <section>
+      <h2>
+        Extra-curricular activities...
+      </h2>
+      <p>
+        Outside of school i have loads of smaller hobbies i like to do.
+        <br> Such as (but not limited to) hanging out with friends playing both board and video games
+        <br> and also being active in general!
+        <br> One of my favorite things to do is probably meeting new people around me
+        <br> Such as all of you!
+      </p>
+      <h3>
+        My Favorite hobbies!
+      </h3>
+      <ol>
+        <li>Meeting new people!</li>
+        <li>Magic the gathering</li>
+        <li>Grand strategy games</li>
+        <li>Paddleboarding</li>
+        <li>Cooking</li>
+      </ol>
+    </section>
+  </id= main>
 </body>
 
 </html>
