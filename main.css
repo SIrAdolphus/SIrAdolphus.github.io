@@ -28,14 +28,52 @@ li {
 /* img style */
 
 img.rcr {
-    border-radius: 30px;
     float: right;
-    display: block;  
+    display: block;
 }
 
 /* nav style */
+nav.nav{
+  position: sticky;
+}
 
-body {
+a{
+  color: #c2c529;
+}
+
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li.nav {
+  float: left;
+}
+
+li.nav a {
+  display: block;
+  color: #c2c529;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #5ba33e;
+}
+
+
+/*body {
     font-family: "Lato", sans-serif;
   }
   
@@ -76,4 +114,4 @@ body {
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
-  }
+  }*/
