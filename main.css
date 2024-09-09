@@ -25,11 +25,16 @@ li {
     color: #5ba33e;
 }
 
+summary{
+  color: #c2c529;
+}
+
 /* img style */
 
 img.rcr {
     float: right;
     display: block;
+    height: 75px;
 }
 
 /* nav style */
@@ -115,3 +120,19 @@ li a:hover {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }*/
+
+/*table style dash*/
+
+th{
+  color: #5ba33e;
+}
+
+td{
+  color: #c2c529;
+}
+
+input{
+  background-color: #333;
+  border: none;
+}
+
