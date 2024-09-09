@@ -123,6 +123,10 @@ li a:hover {
 
 /*table style dash*/
 
+table{
+  width: 100%;
+}
+
 th{
   color: #5ba33e;
 }
@@ -131,6 +135,19 @@ td{
   color: #c2c529;
 }
 
+table{
+  width: 100%;
+}
+
+th.dashtb{
+  color: #5ba33e;
+  border: 1px solid #333;
+}
+
+td.dashtb{
+  color: #c2c529;
+  border: 1px solid #333;
+}
 input{
   background-color: #333;
   border: none;
