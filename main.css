@@ -1,36 +1,47 @@
 /* text style */
 
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url(font!/SUSE-Regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
+  font-family: 'MyCustomFont', Suse;
   background-color: #262823;
   /*#262823*/
 }
 
 h1 {
-  color: #d8d849
+  color: #d8d849;
 }
 
-h2 {
+h2, h3, summary {
   color: #c2c529;
 }
 
-h3 {
-  color: #c2c529;
-}
 
-p {
+p, li {
   color: #5ba33e;
-}
-
-li {
-  color: #5ba33e;
-}
-
-summary {
-  color: #c2c529;
 }
 
 summary.BIGSUM {
   font-size: xx-large;
+}
+
+h1.header {
+  font-size: x-large;
+}
+
+p.prof, h1.prof, details.prof, ol.prof, ul.prof {
+  text-align: center;
+}
+
+ul.prof, ol.prof{
+  padding-left: 0;
+  margin-left: 0;
+  list-style-position: inside;
 }
 
 /* img style */
@@ -43,10 +54,6 @@ img.illegaalgroenlogo {
 }
 
 /* nav style */
-
-
-
-
 
 nav.nav {
   position: sticky;
@@ -87,7 +94,6 @@ li.nav a {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: rgba(0, 0, 0, 0.067);
 }
@@ -136,7 +142,7 @@ li a:hover {
     .sidenav a {font-size: 18px;}
   }*/
 
-/*table style dash*/
+/*table style */
 
 table {
   width: 100%;
@@ -144,10 +150,12 @@ table {
 
 th {
   color: #5ba33e;
+  vertical-align: top;
 }
 
 td {
   color: #c2c529;
+  vertical-align: top;
 }
 
 th.dashtb,
@@ -165,17 +173,9 @@ td.faq {
 input {
   background-color: #333;
   border: none;
-}
-
-/*table profile*/
-td {
-  vertical-align: top;
+  color: #5ba33e;
 }
 
 summary {
   cursor: pointer;
-}
-
-th {
-  vertical-align: top;
 }
