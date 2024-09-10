@@ -86,7 +86,7 @@ li.nav a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: #5ba33e;
+  background-color: rgba(0, 0, 0, 0.067);
 }
 
 
