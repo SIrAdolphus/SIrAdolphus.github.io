@@ -1,50 +1,54 @@
-
 /* text style */
 
 body {
-    background-color: #262823;
+  background-color: #262823;
+  /*#262823*/
 }
 
 h1 {
-    color: #d8d849
+  color: #d8d849
 }
 
 h2 {
-    color: #c2c529;
+  color: #c2c529;
 }
 
 h3 {
-    color: #c2c529;
+  color: #c2c529;
 }
 
 p {
-    color: #5ba33e;
+  color: #5ba33e;
 }
 
 li {
-    color: #5ba33e;
+  color: #5ba33e;
 }
 
-summary{
+summary {
   color: #c2c529;
+}
+
+summary.BIGSUM {
+  font-size: xx-large;
 }
 
 /* img style */
 
 img.illegaalgroenlogo {
-    float: right;
-    display: block;
-    height: 75px;
-    max-height: 50px;
+  float: right;
+  display: block;
+  height: 75px;
+  max-height: 50px;
 }
 
 /* nav style */
 
 
- 
 
 
-nav.nav{
+
+nav.nav {
   position: sticky;
   display: flex;
   justify-content: space-between;
@@ -53,7 +57,7 @@ nav.nav{
   padding: 0 16px;
 }
 
-a{
+a {
   color: #c2c529;
 }
 
@@ -134,46 +138,44 @@ li a:hover {
 
 /*table style dash*/
 
-table{
+table {
   width: 100%;
 }
 
-th{
+th {
   color: #5ba33e;
 }
 
-td{
+td {
   color: #c2c529;
 }
 
-table{
-  width: 100%;
-}
-
-th.dashtb{
+th.dashtb,
+th.faq {
   color: #5ba33e;
-  border: 1px solid #333;
+  border: 3px solid #F0944D;
 }
 
-td.dashtb{
+td.dashtb,
+td.faq {
   color: #c2c529;
-  border: 1px solid #333;
+  border: 3px solid #F0944D;
 }
-input{
+
+input {
   background-color: #333;
   border: none;
 }
 
 /*table profile*/
 td {
-  vertical-align: top; 
+  vertical-align: top;
 }
 
 summary {
-  cursor: pointer; 
+  cursor: pointer;
 }
 
 th {
   vertical-align: top;
 }
-

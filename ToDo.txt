@@ -17,3 +17,6 @@ DAshboard
 progressie balk vgm
 
 :thumbsup:
+
+
+padding ruimte voor FAQ
