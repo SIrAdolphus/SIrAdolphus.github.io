@@ -31,19 +31,18 @@ summary{
 
 /* img style */
 
-img.rcr {
+img.illegaalgroenlogo {
     float: right;
     display: block;
     height: 75px;
+    max-height: 50px;
 }
 
 /* nav style */
 
 
  
-img.rcr {
-  max-height: 50px;
-}
+
 
 nav.nav{
   position: sticky;
@@ -172,5 +171,9 @@ td {
 
 summary {
   cursor: pointer; 
+}
+
+th {
+  vertical-align: top;
 }
 
