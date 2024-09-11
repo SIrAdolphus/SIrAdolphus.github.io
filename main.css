@@ -32,6 +32,7 @@ summary.BIGSUM {
 
 h1.header {
   font-size: x-large;
+  text-align: center;
 }
 
 p.prof, h1.prof, details.prof, ol.prof, ul.prof {
@@ -206,4 +207,57 @@ progress::-webkit-progress-bar{ /*kleur van de bar zelf*/
   font-weight: bold;
   color: #5ba33e; 
   z-index: 1; /* zorgt dat ie op de voorgrond is */
+}
+
+img.boot{
+  margin: 0;
+}
+
+
+/* Blogpost Style */
+section.blog {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.article {
+  background-color: #333;
+  border: 1px solid #F0944D;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.articledate {
+  font-size: 0.9em;
+  color: #5ba33e;
+  margin-bottom: 10px;
+}
+
+.articletitle {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.articlecontent {
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+.readmore {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #262823;
+  color: #5ba33e;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.readmore:hover {
+  background-color: #141414;
 }
