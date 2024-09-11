@@ -211,6 +211,8 @@ progress::-webkit-progress-bar{ /*kleur van de bar zelf*/
 
 img.boot{
   margin: 0;
+  height: auto;
+  width: 40%;
 }
 
 
