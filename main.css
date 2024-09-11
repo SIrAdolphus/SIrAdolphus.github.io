@@ -22,7 +22,7 @@ h2, h3, summary {
 }
 
 
-p, li {
+p, li, label {
   color: #5ba33e;
 }
 
@@ -158,16 +158,18 @@ td {
   vertical-align: top;
 }
 
-th.dashtb,
-th.faq {
+th.dashtb, th.faq, td.dashtb, td.faq{
   color: #5ba33e;
   border: 3px solid #F0944D;
 }
 
-td.dashtb,
-td.faq {
-  color: #c2c529;
-  border: 3px solid #F0944D;
+th.faq, td.faq {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+  max-width: 50%;
+  margin-left: 25%;
+  margin-bottom: 2%;
 }
 
 input {
@@ -178,4 +180,30 @@ input {
 
 summary {
   cursor: pointer;
+}
+
+progress {
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+progress::-webkit-progress-value{ /*verandert de kleur van de progress bar*/
+  background-color: #F0944D;
+}
+
+progress::-webkit-progress-bar{ /*kleur van de bar zelf*/
+  background-color: #333;
+}
+
+.ptext { /*text in de pbar*/
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  line-height: 50px; /* net zo groot als de bar */
+  font-weight: bold;
+  color: #5ba33e; 
+  z-index: 1; /* zorgt dat ie op de voorgrond is */
 }
