@@ -11,6 +11,7 @@ body {
   font-family: 'MyCustomFont', Suse;
   background-color: #262823;
   /*#262823*/
+  padding-bottom: 110px;
 }
 
 h1 {
@@ -304,10 +305,15 @@ section.blog {
   color: white;
   text-align: center;
   max-height: 70px;
+  padding: 10px;
 }
 
 .footerlogo {
   height: 5%;
   width: 5%;
 
+}
+
+.active{
+  background-color: #141414;
 }
