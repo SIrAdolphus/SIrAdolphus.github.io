@@ -39,6 +39,18 @@ p.prof, h1.prof, details.prof, ol.prof, ul.prof {
   text-align: center;
 }
 
+p.blogart{
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+li.blogart{
+  text-align: center;
+  width: 75%;
+  margin: auto;
+}
+
 ul.prof, ol.prof{
   padding-left: 0;
   margin-left: 0;
@@ -262,4 +274,22 @@ section.blog {
 
 .readmore:hover {
   background-color: #141414;
+}
+
+/* Footer */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #F0944D;
+  color: white;
+  text-align: center;
+  max-height: 70px;
+}
+
+.footerlogo {
+  height: 5%;
+  width: 5%;
+  
 }
