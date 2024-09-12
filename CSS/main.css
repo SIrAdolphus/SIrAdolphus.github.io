@@ -34,7 +34,7 @@ summary.BIGSUM {
   font-size: xx-large;
 }
 
-h1.header {
+h1, h2.header {
   font-size: x-large;
   text-align: center;
 }
