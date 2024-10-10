@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/CSS/main.css">
-    <link rel="icon" href="fotos!/website.icon.jpg" type="image">
+    <link rel="icon" href="fotos/website.icon.jpg" type="image">
     <title>dashboard</title>
 </head>
 
@@ -43,14 +43,14 @@
             <li class="nav"><a href="blog.html">Blog</a></li>
             <li class="nav"><a class="active" href="dashboard.html">Dashboard</a></li>
             <li class="nav"><a href="faq.html">FAQ</a></li>
-            <a href="https://hz.nl/"><img src="fotos!/hzlogo-Photoroom.png" alt="hzLogo" class="illegaalgroenlogo"></a>
+            <a href="https://hz.nl/"><img src="fotos/hzlogo-Photoroom.png" alt="hzLogo" class="illegaalgroenlogo"></a>
         </ul>
     </nav>
 
 
 
 
-    <table>
+    <table class="dashBorder">
         <tr class="dashtb">
             <th class="dashtb">Quarter</th>
             <th class="dashtb">Course</th>
@@ -62,71 +62,87 @@
             <th rowspan="3" class="dashtb">1</th>
             <td class="dashtb">PCO</td>
             <td class="dashtb">Assessment website</td>
-            <td class="dashtb"><input></input></td>
+            <td class="dashtb"><input class="Mygrade" type="number" step="0.1" min="0" max="10"></input></td>
             <td class="dashtb">2,5</td>
         </tr>
         <tr class="dashtb">
             <td class="dashtb">CSB</td>
             <td class="dashtb">Written Exam</td>
-            <td class="dashtb"><input></input></td>
+            <td class="dashtb"><input class="Mygrade" type="number" step="0.1" min="0" max="10"></input></td>
             <td class="dashtb">5</td>
         </tr>
         <tr class="dashtb">
             <td class="dashtb">PBA</td>
             <td class="dashtb">Case Study Exam</td>
-            <td class="dashtb"><input></input></td>
+            <td class="dashtb"><input class="Mygrade" type="number" step="0.1" min="0" max="10"></input></td>
             <td class="dashtb">5</td>
         </tr>
         <tr class="dashtb">
             <th rowspan="2" class="dashtb">2</th>
             <td class="dashtb">PPD-E</td>
             <td class="dashtb">PPD-E Exam</td>
-            <td class="dashtb"><input></input></td>
+            <td class="dashtb"><input class="Mygrade" type="number" step="0.1" min="0" max="10"></input></td>
             <td class="dashtb">12,5</td>
         </tr>
         <tr class="dashtb">
             <td class="dashtb">OOP</td>
             <td class="dashtb">OOP Exam</td>
-            <td class="dashtb"><input></input></td>
+            <td class="dashtb"><input class="Mygrade" type="number" step="0.1" min="0" max="10"></input></td>
             <td class="dashtb">10</td>
         </tr>
         <th rowspan="2" class="dashtb">3</th>
         <td class="dashtb">Framework-project 1</td>
         <td class="dashtb">Presentation (with group)</td>
-        <td class="dashtb"><input></input></td>
+        <td class="dashtb"><input class="Mygrade" type="number" step="0.1" min="0" max="10"></input></td>
         <td class="dashtb">10</td>
         </tr>
         <tr class="dashtb">
             <td class="dashtb">Business IT consultancy basics</td>
             <td class="dashtb">Presentation (with group) </td>
-            <td class="dashtb"><input></input></td>
-            <td class="dashtb"> x</td>
+            <td class="dashtb"><input class="Mygrade" type="number" step="0.1" min="0" max="10"></input></td>
+            <td class="dashtb"> 1,25 </td>
         </tr>
-        <th rowspan="2" class="dashtb">4</th>
+        <th rowspan="3" class="dashtb">4</th>
         <td class="dashtb">Framework-project 2</td>
         <td class="dashtb">Portfolio</td>
-        <td class="dashtb"><input></input></td>
+        <td class="dashtb"><input class="Mygrade" type="number" step="0.1" min="0" max="10"></input></td>
         <td class="dashtb">10</td>
         </tr>
         <tr class="dashtb">
             <td class="dashtb">Business IT consultancy basics </td>
             <td class="dashtb">Portfolio</td>
-            <td class="dashtb"><input></input></td>
-            <td class="dashtb">2,5</td>
-
+            <td class="dashtb"><input class="Mygrade" type="number" step="0.1" min="0" max="10"></input></td>
+            <td class="dashtb">1,25</td>
+        </tr>
+        <tr class="dashtb">
+            <td class="dashtb">IT personality</td>
+            <td class="dashtb">Fill in on your own</td>
+            <td class="dashtb"><input class="Mygrade" type="number" step="0.1" min="0" max="10"></input></td>
+            <td class="dashtb">2.5</td>
         </tr>
     </table>
 
-    <h1>EC'S</h1>
-<label for="file">Total EC'S collected (minimal 45 needed for 1st year):</label>
-<div class="ptext">10/60 EC's</div>
-<progress id="file" value="10" max="60">10EC's</progress>
 
-<section class="footer">
-    <a target="_blank" href="https://www.instagram.com/gijs_borghouts/?next=%2F"><img src="fotos!/instalogo.png" alt="instagram" class="footerlogo"> </a>
-    <a target="_blank" href="https://github.com/SIrAdolphus"><img src="fotos!/githublogo.png" alt="github" class="footerlogo"></a>
-    <a href="mailto:borg0039@hz.nl"><img src="fotos!/maillogo.png" alt="Mail" class="footerlogo"></a>
-    </section>
+
+
+
+<h1>EC's gained out of 60.</h1>
+    <div class="wrapper">
+        <div class="progress-bar">
+            <span class="progress-bar-fill" style="width: 0;"></span>
+        </div>
+        <div class="progress-text"></div>
+    </div>
+
+    <!--javascript stuk-->
+    <script src="js/progressbar.js"></script>
+
+
+    <section class="footer">
+        <a target="_blank" href="https://www.instagram.com/gijs_borghouts/?next=%2F"><img src="/fotos/InstagramUpdated-Photoroom.png" alt="instagram" class="footerlogo"> </a>
+        <a target="_blank" href="https://github.com/SIrAdolphus"><img src="/fotos/gitUpdated-Photoroom.png" alt="github" class="footerlogo"></a>
+        <a href="mailto:borg0039@hz.nl"><img src="/fotos/mailUpdated2-Photoroom.png" alt="Mail" class="footerlogo"></a>
+        </section>
 
 </body>
 

@@ -1,22 +1,13 @@
-maak motivatie
+logo optie normaal met een knop ofz.
 
-home page (why it & future (after hz))
+Maak alles net wat netter
 
-profiel, foto's
+go back button voor motivation blog ook terug laten gaan naar homepage.
 
-logo ergens op elke pagina footer of nav balk kies
+plaatjes onderin even groot maken (insta,git,mail)
 
-blog:
-oh oh lastig! 
-3 artikelen? met eigen mening en externe links en shi
+faq navigatie naar parkeergarage.
 
-FAQ
-vragen+Antwoorden in summaries
-
-DAshboard
-progressie balk vgm
+sidebar menu meer leesbaar maken
 
 :thumbsup:
-
-
-padding ruimte voor FAQ
