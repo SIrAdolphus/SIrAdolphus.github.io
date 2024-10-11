@@ -1,5 +1,5 @@
 const totalEC = 60; // Total ECs
-const ecValues = [2.5, 5, 5, 12.5, 10, 10, 1.25,  10, 1.25,  2.5]; // ECs per course
+const ecValues = [2.5, 5, 5, 12.5, 10, 10, 1.25, 10, 1.25, 2.5]; // ECs per course
 
 // Function to save grades in LocalStorage
 function saveGrade(input, index) {

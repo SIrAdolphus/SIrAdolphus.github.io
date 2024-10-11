@@ -1,13 +1,1 @@
-logo optie normaal met een knop ofz.
-
-Maak alles net wat netter
-
-go back button voor motivation blog ook terug laten gaan naar homepage.
-
-plaatjes onderin even groot maken (insta,git,mail)
-
-faq navigatie naar parkeergarage.
-
-sidebar menu meer leesbaar maken
-
 :thumbsup:

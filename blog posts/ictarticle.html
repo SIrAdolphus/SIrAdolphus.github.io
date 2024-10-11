@@ -2,87 +2,92 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/CSS/main.css">
-    <link rel="icon" href="/fotos/website.icon.jpg" type="image">
-    <title>ICT Article</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/CSS/main.css">
+  <link rel="icon" href="/fotos/website.icon.jpg" type="image">
+  <title>ICT Article</title>
 </head>
 
 <body>
-    <nav>
-        <ul class="nav">
-          <li class="nav"><button class="nav" onclick="window.history.back();">Go Back</button></li>
-          <a href="https://hz.nl/"><img style="float: right;" id="groenLogoMagEigenlijkNiet" src="/fotos/hzlogo-Photoroom.png" alt="hzLogo" class="illegaalgroenlogo"></a>
-          <li style="float: right;" class="nav"><button class="nav" onclick="changePhoto()">Hugo Button!</button></li>
-        </ul>
-    
+  <nav>
+    <ul class="nav">
+      <li class="nav"><button class="nav" onclick="window.history.back();">Go Back</button></li>
+      <a href="https://hz.nl/"><img style="float: right;" id="groenLogoMagEigenlijkNiet"
+          src="/fotos/hzlogo-Photoroom.png" alt="hzLogo" class="illegaalgroenlogo"></a>
+      <li style="float: right;" class="nav"><button class="nav" onclick="changePhoto()">Hugo Button!</button></li>
+    </ul>
+
     <script src="/js/logoknop.js"></script>
 
-    </nav>
-    <h1 class="header"> The Future of AI in ICT: What's Next?</h1>
-    <p class="blogart">
-        Artificial Intelligence (AI) is rapidly transforming the field of Information and Communication Technology (ICT). 
-        As AI continues to advance, it is set to redefine how we interact with technology, 
-        making systems smarter, more efficient, and more responsive to our needs.</p>
-<br><br>
-       <h1 class="header"> What’s Next for AI in ICT?</h1>
-    <ol class="blogart">
-        <li class="blogart">Smarter Networks: AI will play a key role in developing intelligent networks that self-optimize, 
-        predict failures, and enhance communication speed and reliability. 
-        This will be crucial for the growing demands of IoT and 5G technologies.</li>
-        <br>
-        <li class="blogart">Enhanced Cybersecurity: With the rise of cyber threats, 
-            AI will be vital in detecting and mitigating attacks in real-time, 
-            creating a more secure digital environment.</li>
-        <br>
-        <li class="blogart">Quantum and Edge AI: The fusion of AI with quantum computing will unlock unprecedented computational power,
-             while edge AI will bring processing closer to data sources, 
-             reducing latency and improving real-time decision-making.</li>
-        <br>
-        <li class="blogart">Ethical AI: The future of AI in ICT will also focus on ethical considerations, 
-            ensuring that AI systems are fair, transparent, and aligned with societal values.</li>
-    </ol> </p>
-       <h1 class="header">Conclusion</h1> <br>
-       <p class="blogart">The future of AI in ICT holds immense potential, 
-        from smarter networks to groundbreaking innovations. 
-        Embracing AI's evolution will be key to unlocking new opportunities and addressing the challenges 
-        of a rapidly changing digital landscape.
-    </p>
+  </nav>
+  <h1 class="header"> The Future of AI in ICT: What's Next?</h1>
+  <p class="blogart">
+    Artificial Intelligence (AI) is rapidly transforming the field of Information and Communication Technology (ICT).
+    As AI continues to advance, it is set to redefine how we interact with technology,
+    making systems smarter, more efficient, and more responsive to our needs.</p>
+  <br><br>
+  <h1 class="header"> What’s Next for AI in ICT?</h1>
+  <ol class="blogart">
+    <li class="blogart">Smarter Networks: AI will play a key role in developing intelligent networks that self-optimize,
+      predict failures, and enhance communication speed and reliability.
+      This will be crucial for the growing demands of IoT and 5G technologies.</li>
+    <br>
+    <li class="blogart">Enhanced Cybersecurity: With the rise of cyber threats,
+      AI will be vital in detecting and mitigating attacks in real-time,
+      creating a more secure digital environment.</li>
+    <br>
+    <li class="blogart">Quantum and Edge AI: The fusion of AI with quantum computing will unlock unprecedented
+      computational power,
+      while edge AI will bring processing closer to data sources,
+      reducing latency and improving real-time decision-making.</li>
+    <br>
+    <li class="blogart">Ethical AI: The future of AI in ICT will also focus on ethical considerations,
+      ensuring that AI systems are fair, transparent, and aligned with societal values.</li>
+  </ol>
+  </p>
+  <h1 class="header">Conclusion</h1> <br>
+  <p class="blogart">The future of AI in ICT holds immense potential,
+    from smarter networks to groundbreaking innovations.
+    Embracing AI's evolution will be key to unlocking new opportunities and addressing the challenges
+    of a rapidly changing digital landscape.
+  </p>
 
 
 
 
+  <section class="footer">
+    <li class="nav">
+
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a target="_blank" href="https://github.com/HZ-HBO-ICT">Github HBO-ICT</a>
+        <a target="_blank" href="https://shorturl.at/5Yn47">PCO Notion</a>
+        <a target="_blank" href="https://hz.osiris-student.nl/voortgang">Progress MyHZ</a>
+        <a target="_blank" href="https://oer.hz.nl/6978cdea-fb31-430b-9bf9-63206aa07754">Regulations HBO-ICT</a>
+      </div>
+      <span style="font-size:30px;cursor:pointer;color:#5ba33e;" onclick="openNav()">&#9776; </span>
+
+      <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+        }
+
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+          document.getElementById("main").style.marginLeft = "0";
+        }
+      </script>
+
+    </li>
     <section class="footer">
-        <li class="nav">
-
-            <div id="mySidenav" class="sidenav">
-              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-              <a target="_blank" href="https://github.com/HZ-HBO-ICT">Github HBO-ICT</a>
-              <a target="_blank" href="https://shorturl.at/5Yn47">PCO Notion</a>
-              <a target="_blank" href="https://hz.osiris-student.nl/voortgang">Progress MyHZ</a>
-              <a target="_blank" href="https://oer.hz.nl/6978cdea-fb31-430b-9bf9-63206aa07754">Regulations HBO-ICT</a>
-            </div>
-            <span style="font-size:30px;cursor:pointer;color:#5ba33e;" onclick="openNav()">&#9776; </span>
-          
-            <script>
-              function openNav() {
-                document.getElementById("mySidenav").style.width = "250px";
-                document.getElementById("main").style.marginLeft = "250px";
-              }
-          
-              function closeNav() {
-                document.getElementById("mySidenav").style.width = "0";
-                document.getElementById("main").style.marginLeft = "0";
-              }
-            </script>
-    
-          </li>
-          <section class="footer">
-            <a target="_blank" href="https://www.instagram.com/gijs_borghouts/?next=%2F"><img src="/fotos/InstagramUpdated-Photoroom.png" alt="instagram" class="footerlogo"> </a>
-            <a target="_blank" href="https://github.com/SIrAdolphus"><img src="/fotos/gitUpdated-Photoroom.png" alt="github" class="footerlogo"></a>
-            <a href="mailto:borg0039@hz.nl"><img src="/fotos/mailUpdated2-Photoroom.png" alt="Mail" class="footerlogo"></a>
-            </section>
+      <a target="_blank" href="https://www.instagram.com/gijs_borghouts/?next=%2F"><img
+          src="/fotos/InstagramUpdated-Photoroom.png" alt="instagram" class="footerlogo"> </a>
+      <a target="_blank" href="https://github.com/SIrAdolphus"><img src="/fotos/gitUpdated-Photoroom.png" alt="github"
+          class="footerlogo"></a>
+      <a href="mailto:borg0039@hz.nl"><img src="/fotos/mailUpdated2-Photoroom.png" alt="Mail" class="footerlogo"></a>
+    </section>
 </body>
 
 </html>
